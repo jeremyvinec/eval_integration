@@ -1,0 +1,181 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e0e0e0;
+    color: #424242;
+    font-family: 'RobotoDraft', 'Helvetica Neue', Helvetica, Arial;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+header{
+    background-color: white;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0;
+    display: inline;
+}
+
+nav a {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.75em;
+    color: #37474f;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2.5;
+}
+
+nav a:hover {
+    background: #37474f;
+    color: #fff;
+}
+
+.logo img{
+    width: 186px;
+}
+
+.article-left img{
+    width: 100%;
+}
+
+.region-top{
+
+}
+
+.region-top a {
+    text-decoration: none;
+    color: white;
+}
+
+.article-top-left {
+    background-color: #ff7043;
+    padding: 2em;
+    color: white;
+}
+
+.article-top-right-titre {
+    padding: 2rem;
+    font-size: 0.9em;
+}
+
+.article-top-right img {
+    max-width: 100%;
+}
+
+.article-top-right h1 {
+    color: white;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.article-top-right article:nth-child(1) {
+    background-color: #c62828;
+}
+
+.article-top-right article:nth-child(2) {
+    background-color: #5c6bc0;
+}
+
+
+ul.tags {
+    margin: 0;
+    padding: 0;
+}
+
+ul.tags li {
+    list-style: none;
+}
+
+ul.tags li a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.main img{
+    width: 100%;
+}
+
+.text_article{
+    padding: 2em;
+}
+
+article h1 {
+    margin: 0;
+}
+
+article p {
+    margin: 0;
+}
+
+article .tags a {
+    text-decoration: none;
+    color: #1875d1;
+}
+
+
+aside {
+    width: 100%;
+    background-color: #f5f5f5;
+    color: #666;
+}
+
+aside h1 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#form h1{
+    text-align: center;
+    padding-top: 2em;
+}
+
+form{
+    width: 250px;
+    padding-bottom: 2em;
+}
+
+form input[type=submit] {
+    background-color: #5677fc;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: .45em .938em .5em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    color: white;
+    margin: 1em 11em;
+    display: block;
+    font-size: 0.9em;
+}
+
+form label{
+    width: 100px;
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
