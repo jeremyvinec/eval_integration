@@ -1,6 +1,7 @@
 *{
     margin: 0 auto;
     padding: 0 auto;
+    height: 100%
 }
 
 body{
@@ -12,6 +13,7 @@ body{
     font-family: 'RobotoDraft', 'Helvetica Neue', Helvetica, Arial;
     font-size: 1em;
     line-height: 1.6;
+    height: 100%
 }
 
 h1{
